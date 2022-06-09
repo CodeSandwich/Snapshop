@@ -1,0 +1,38 @@
+{
+  "name": "Snapshop",
+  "version": "0.0.1",
+  "description": "On-chain snapshots of the whole blockchain state for Ethereum",
+  "scripts": {
+    "test": "hardhat test",
+    "lint": "solhint --max-warnings=0 'contracts/**/*.sol'",
+    "prettier": "prettier --write 'contracts/**/*.sol' 'src/**/*.js' 'test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSandwich/snapshop.git"
+  },
+  "author": "Igor Żuk",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/CodeSandwich/snapshop/issues"
+  },
+  "homepage": "https://github.com/CodeSandwich/snapshop#readme",
+  "dependencies": {
+    "ethers": "^5.6.8"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "geth": "^0.4.0",
+    "hardhat": "^2.9.7",
+    "prettier": "^2.6.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.7",
+    "solhint-plugin-prettier": "^0.0.5"
+  },
+  "prettier": {
+    "printWidth": 100
+  }
+}
