@@ -1,6 +1,6 @@
 # 📸 Snapshop 📸
 
-Snapshop is a tool for creating on-chain snapshots of the whole blockchain state. It lets your smart contracts read the storage of any contract at a given block. It can be used for on-chain voting, airdrops and many more. Works on Ethereum and similar blockchains.
+Snapshop is a tool for creating on-chain snapshots of the whole blockchain state. It lets your smart contracts read the storage of any contract at a given block. It can be used for on-chain voting, airdrops and many more. Works on Ethereum and similar blockchains like Polygon.
 
 The tooling includes:
 
