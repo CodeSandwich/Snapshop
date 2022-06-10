@@ -1,8 +1,6 @@
 //SPDX-License-Identifier: GPL-3.0-only
 pragma solidity ^0.8.14;
 
-import "hardhat/console.sol";
-
 library SnapshopLib {
     bytes32 internal constant NULL_NODE_HASH = keccak256(abi.encodePacked(uint8(128)));
 

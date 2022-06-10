@@ -1,8 +1,6 @@
 //SPDX-License-Identifier: GPL-3.0-only
 pragma solidity ^0.8.14;
 
-import "hardhat/console.sol";
-
 import {SnapshopLib} from "./SnapshopLib.sol";
 
 contract Snapshop {
